@@ -8,14 +8,13 @@ import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AppsDataComponent } from './components/apps-data/apps-data.component';
-import { HomeComponent } from './components/home/home.component'
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent, HeaderComponent, DashboardComponent, AppsDataComponent, HomeComponent
+    AppComponent, HeaderComponent, DashboardComponent, AppsDataComponent
   ],
   imports: [
     BrowserModule,
