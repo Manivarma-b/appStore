@@ -1,0 +1,162 @@
+
+.tab {
+    overflow: hidden;
+    // border: 1px solid #ccc;
+    background-color: #fff;
+    // font-size:15px;
+}
+
+
+.tab button {
+    background-color: #fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.app-card{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 142px;
+    padding: 10px;
+    background: #fff;
+}
+.image {
+    background:#fff;
+    cursor: pointer;  
+    width: 147px;
+    border-radius: 20px; 
+}
+.image2{
+
+}
+.image2:hover{
+    transition: all .25s ease;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+    filter:black;
+    z-index:999;
+    border:1px solid;
+}
+
+.image:hover{
+    opacity:0.3;
+}
+.secondHeaderIcon{
+    border:1px solid darkkhaki;
+    padding:2px 5px 2px 5px;
+    border-radius:3px;
+    font-size:20px;
+}
+.secondHeaderIcon2{
+    border:1px solid darkkhaki;
+    padding:2px 20px 2px 20px;
+    border-radius:3px;
+    font-size:20px;
+}
+
+.gameTitle{
+    font-size: 16px;
+    line-height: 0;
+}
+.provider{
+    font-size: 13px;
+    line-height: 0;
+}
+.come{
+    color:green;
+    font-weight:600;
+    font-size:11px;
+    float:right;
+    margin-bottom:-1%;
+}
+
+
+@media screen and  (max-width:599px){
+    .tab button {
+        font-size: 10px;
+    }
+   .image{
+       width:100px;
+   }
+   .gameTitle{
+    font-size: 8px;
+}
+.provider{
+    font-size: 7px;
+}
+.come{
+
+    font-size:6px;
+}
+.app-card{
+    width:100px;
+}
+.secondHeaderIcon{
+    border:1px solid darkkhaki;
+    padding:2px 5px 2px 5px;
+    border-radius:3px;
+    font-size:10px;
+}
+.secondHeaderIcon2{
+    border:1px solid darkkhaki;
+    padding:2px 10px 2px 10px;
+    border-radius:3px;
+    font-size:10px;
+}
+  }
+
+  @media screen and  (min-width:599px) and (max-width:959px){
+    .tab button {
+        font-size: 8px;
+    }
+   .image{
+       width:120px;
+   }
+   .gameTitle{
+    font-size: 10px;
+}
+.provider{
+    font-size: 9px;
+}
+.come{
+
+    font-size:8px;
+}
+.app-card{
+    width:120px;
+}
+.secondHeaderIcon{
+    border:1px solid darkkhaki;
+    padding:2px 5px 2px 5px;
+    border-radius:3px;
+    font-size:10px;
+}
+.secondHeaderIcon2{
+    border:1px solid darkkhaki;
+    padding:2px 10px 2px 10px;
+    border-radius:3px;
+    font-size:10px;
+}
+  }

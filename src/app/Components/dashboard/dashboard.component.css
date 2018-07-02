@@ -1,0 +1,149 @@
+.list_two{
+    font-size: 16px;
+    font-weight: normal;
+    /* list-style-type: none; */
+    list-style-type:none;
+    /* border-bottom: 1px solid gainsboro; */
+}
+
+.list_one{
+    font-size: 20px;
+    font-weight: normal;
+    list-style-type: none;
+    /* list-style-type:none; */
+    border-bottom: 1px solid gainsboro;
+}
+
+.list{
+    font-size: 16px;
+    font-weight: normal;
+    list-style-type: none;
+    margin-left:-11%;
+    /* list-style-type:none; */
+    /* border-bottom: 1px solid gainsboro; */
+}
+.items{
+    padding: 4px;
+}
+
+.bottomSet{
+    background: rgba(238,238,238,0.95);
+    border-top: 1px solid rgba(217,217,217,1);
+    -webkit-box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    /* padding-bottom: 10px;
+    padding-top: 9px; */
+}
+
+.iconSet{
+    background:white;
+    color:green;
+    padding:5px;
+}
+
+.firstMenu{
+    margin-left:-20%;
+    margin-bottom:5%;
+    padding-bottom:7px;
+    margin-top:-15%;
+    font-weight:300;
+}
+.nextMenu{
+    margin-left:-20%;
+    margin-bottom:5%;
+    padding-bottom:7px;
+    color:green;
+}
+.secondMenu{
+    margin-left:-20%;
+    margin-bottom:5%;
+    padding-bottom:7px;
+}
+
+.lastMenu{
+    margin-left:-20%;
+    margin-bottom:97%;
+    padding-bottom:7px;
+}
+.menuHead{
+    margin-right: 34%;
+    font-size: 22px;
+}
+.menuIcon{
+    font-size:27px;
+}
+@media screen and  (max-width:599px){
+
+    .menuHead{
+        margin-right: 25%;
+        font-size: 15px;
+    }
+    .menuIcon{
+        font-size:20px;
+    }
+    .list_two{
+        font-size:10px;
+    }
+    .list_one{
+    font-size: 12px;
+   }
+   .firstMenu{
+    margin-left:-60%;
+}
+.nextMenu{
+    margin-left:-60%;
+   
+}
+.secondMenu{
+    margin-left:-60%;
+   
+}
+
+.lastMenu{
+    margin-left:-60%;
+}
+
+.list{
+   
+    margin-left:-36%;
+   font-size:10px;
+}
+}
+
+@media screen and  (min-width:599px) and (max-width:959px){
+
+    .menuHead{
+        margin-right: 28%;
+        font-size: 20px;
+    }
+    .menuIcon{
+        font-size:25px;
+    }
+    .list_two{
+        font-size:14px;
+    }
+    .list_one{
+    font-size: 16px;
+   }
+   .firstMenu{
+    margin-left:-30%;
+}
+.nextMenu{
+    margin-left:-30%;
+   
+}
+.secondMenu{
+    margin-left:-30%;
+   
+}
+
+.lastMenu{
+    margin-left:-30%;
+}
+
+.list{
+   
+    margin-left:-18%;
+   font-size:16px;
+}
+}
