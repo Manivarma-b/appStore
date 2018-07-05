@@ -40,7 +40,7 @@ font-weight:100;
 
 .app-card{
     display: inline-block;
-    margin: 10px;
+    margin: 7px;
     border: 1px solid #eee;
     box-shadow: 0 2px 2px #ccc;
     width: 142px;
@@ -48,27 +48,16 @@ font-weight:100;
     background: #fff;
 }
 .image {
-    background:#fff;
-    cursor: pointer;  
+    // background:#fff;
+    // cursor: pointer;  
     width: 145px;
     height:145px;
     border-radius: 20px; 
 }
-.image2{
 
-}
-.image2:hover{
-    transition: all .25s ease;
-    color: rgba(0,0,0,0.4);
-    cursor: pointer;
-    filter:black;
-    z-index:999;
-    border:1px solid;
-}
-
-.image:hover{
-    opacity:0.3;
-}
+// .image:hover{
+//     opacity:0.3;
+// }
 .secondHeaderIcon{
     border:1px solid darkkhaki;
     padding:2px 5px 2px 5px;
@@ -80,6 +69,16 @@ font-weight:100;
     padding:2px 20px 2px 20px;
     border-radius:3px;
     font-size:20px;
+}
+.image:hover {
+    z-index: 999;
+    border-radius: 0px;
+    opacity: 0.5;
+    filter: alpha(opacity=0.5);
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 
 .gameTitle{

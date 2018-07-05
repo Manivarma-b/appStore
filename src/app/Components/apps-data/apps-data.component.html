@@ -25,12 +25,12 @@
   </div>
 
   <div  style="margin-left: 30px">
-    <div *ngFor="let home of home" class="app-card">
-      <img class="image image2" [src]="home.imageLink" />
+    <div *ngFor="let home of home"  class="app-card">
+    <span id="overlay">  <img class="image" [src]="home.imageLink" /> </span>
       <h3 class="gameTitle">{{home.gameName}}</h3>
       <p class="provider">{{home.provider}}</p>
       <p class="come">COMING SOON</p>
-    </div>
+      </div>
   </div>
 
   <!-- <div *ngFor="let home of home" >

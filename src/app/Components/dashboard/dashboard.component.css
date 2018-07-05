@@ -5,7 +5,10 @@
     list-style-type:none;
     /* border-bottom: 1px solid gainsboro; */
 }
-
+.dashboard{
+    background: #f1f1f1; 
+    box-shadow: 1px 1px 1px 1px lightgrey;
+}
 .list_one{
     font-size: 20px;
     font-weight: normal;
@@ -13,7 +16,13 @@
     /* list-style-type:none; */
     border-bottom: 1px solid gainsboro;
 }
-
+.list_set{
+    padding: 11px; 
+    background: #689f38;
+    text-align: center;
+    color:white;
+    
+}
 .list{
     font-size: 16px;
     font-weight: normal;
@@ -71,6 +80,7 @@
 }
 .menuIcon{
     font-size:27px;
+    margin-left:5%;
 }
 @media screen and  (max-width:599px){
 
